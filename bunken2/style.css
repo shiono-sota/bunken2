@@ -1,0 +1,27 @@
+.modal {
+   
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+overflow: auto;
+background-color: rgba(18, 20, 19, 0.452);
+   
+  }
+  
+  .inner {
+    height: 200px;
+    width: 500px;
+    margin: 10% auto;
+    background-color: rgb(174, 235, 199);
+    border: solid 3px #097c58b2;
+    border-radius: 10px;
+    text-align: center 
+  }
+
+  #all{
+    background-color: rgb(192, 192, 192);
+
+  }

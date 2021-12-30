@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>文献紹介動画2</title>
+    <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+  </head>
+  <body>
+  
+    <video-js id=video width=1280 height=720
+              class="vjs-default-skin" controls>
+      <source
+         src="./hls/video.m3u8"
+         type="application/x-mpegURL">
+    </video-js>
+本サイトは「文献紹介動画２」のwebサイトです。
+<p>文献リンク:<a href="http://ipsj.ixsq.nii.ac.jp.rmx.clib.kindai.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=98241&item_no=1&page_id=13&block_id=8">HTML5アプリケーションのセキュリティリスクに関する一考察</a></p>
+
+    <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+    <script>
+      var player = videojs('video', 
+        {
+          autoplay: false,
+          loop: false,
+          controls: true,
+          preload: 'auto',
+          fluid: true,
+          playbackRates: [0.5, 1, 1.5, 2]
+        }
+      );
+
+
+    </script>
+      <script src='video.js' charset='UTF-8'></script>
+      
+  </body>
+</html>
